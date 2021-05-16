@@ -41,7 +41,7 @@ namespace myweddingApi
                                       .AllowAnyHeader()
                                                                 .AllowAnyMethod()
                                                                 .AllowCredentials();
-                                  })
+                                  });
                 });
 
             services.Configure<DatabaseConfiguration>(
