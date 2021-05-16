@@ -37,10 +37,12 @@ namespace myweddingApi
                 options.AddPolicy(name: MyAllowSpecificOrigins,
                                   builder =>
                                   {
-                                      builder.WithOrigins("http://localhost:3000", "https://szalone-wesele.herokuapp.com", "http://szalone-wesele.herokuapp.com").AllowAnyHeader()
+                                      builder.WithOrigins("http://localhost:3000", "https://szalone-wesele.herokuapp.com", "http://szalone-wesele.herokuapp.com")
+                                      .AllowAnyHeader()
                                                                 .AllowAnyMethod()
                                                                 .AllowCredentials();
-                                  });
+                                  })
+                });
 
             services.Configure<DatabaseConfiguration>(
                Configuration.GetSection(nameof(DatabaseConfiguration)));
