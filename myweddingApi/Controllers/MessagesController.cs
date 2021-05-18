@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
+using myweddingApi.Attributes;
 using myweddingApi.Database;
 using myweddingApi.Repositories;
 
@@ -15,7 +16,7 @@ namespace myweddingApi.Controllers
         {
             _messageRepository = messageRepository;
         }
-
+        [ApiKey]
         [HttpPost]
         public IActionResult AddMessage([FromBody] MessageRequest messageRequest)
         {
@@ -23,6 +24,13 @@ namespace myweddingApi.Controllers
             if (result != null)
                 return Ok();
             return BadRequest();
+        }
+
+        [HttpGet]
+        [Route("healthcheck")]
+        public IActionResult Healthcheck()
+        {
+            return Ok("healthcheck");
         }
     }
 

@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace myweddingApi.Attributes
 {
-    [AttributeUsage(validOn: AttributeTargets.Class)]
+    [AttributeUsage(validOn: AttributeTargets.All)]
     public class ApiKeyAttribute : Attribute, IAsyncActionFilter
     {
         private const string APIKEYNAME = "ApiKey";
