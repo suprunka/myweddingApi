@@ -15,5 +15,6 @@
     <Folder Include="Database\" />
     <Folder Include="Repositories\" />
     <Folder Include="Services\" />
+    <Folder Include="Attributes\" />
   </ItemGroup>
 </Project>

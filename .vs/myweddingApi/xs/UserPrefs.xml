@@ -1,25 +1,23 @@
 ﻿<Properties StartupConfiguration="{8A262351-5817-4BF4-9A3D-FDA76EF9633B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="myweddingApi/Controllers/MessagesController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="myweddingApi/Attributes/ApiKey.cs">
     <Files>
-      <File FileName="myweddingApi/appsettings.json" Line="11" Column="28" />
-      <File FileName="myweddingApi/Configuration/DatabaseConfiguration.cs" />
-      <File FileName="myweddingApi/Database/Message.cs" />
+      <File FileName="myweddingApi/appsettings.json" Line="12" Column="1" />
+      <File FileName="myweddingApi/Configuration/DatabaseConfiguration.cs" Line="1" Column="1" />
+      <File FileName="myweddingApi/Database/Message.cs" Line="1" Column="1" />
       <File FileName="myweddingApi/Services/FormService.cs" />
-      <File FileName="myweddingApi/Startup.cs" Line="44" Column="38" />
+      <File FileName="myweddingApi/Startup.cs" />
       <File FileName="myweddingApi/Controllers/MessagesController.cs" Line="21" Column="1" />
+      <File FileName="myweddingApi/Repositories/MessageRepository.cs" Line="18" Column="90" />
+      <File FileName="myweddingApi/Attributes/ApiKey.cs" Line="5" Column="55" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="myweddingApi" expanded="True">
             <Node name="myweddingApi" expanded="True">
-              <Node name="Configuration" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="MessagesController.cs" selected="True" />
+              <Node name="Attributes" expanded="True">
+                <Node name="ApiKey.cs" selected="True" />
               </Node>
-              <Node name="Database" expanded="True" />
-              <Node name="Repositories" expanded="True" />
-              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>

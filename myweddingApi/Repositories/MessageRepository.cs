@@ -15,7 +15,7 @@ namespace myweddingApi.Repositories
 
         public MessageRepository( IDatabaseConfiguration settings)
         {
-            var client = new MongoClient(settings.ConnectionString);
+            var client = new MongoClient(Environment.GetEnvironmentVariable("DATABASE_URL"));
             var database = client.GetDatabase(settings.DatabaseName);
 
             _messages = database.GetCollection<Message>(settings.MessagesCollectionName);
