@@ -1,23 +1,27 @@
 ﻿<Properties StartupConfiguration="{8A262351-5817-4BF4-9A3D-FDA76EF9633B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="myweddingApi/Attributes/ApiKey.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="myweddingApi/Database/Message.cs">
     <Files>
       <File FileName="myweddingApi/appsettings.json" Line="12" Column="1" />
-      <File FileName="myweddingApi/Configuration/DatabaseConfiguration.cs" Line="1" Column="1" />
-      <File FileName="myweddingApi/Database/Message.cs" Line="1" Column="1" />
+      <File FileName="myweddingApi/Configuration/DatabaseConfiguration.cs" />
+      <File FileName="myweddingApi/Database/Message.cs" Line="15" Column="46" />
       <File FileName="myweddingApi/Services/FormService.cs" />
       <File FileName="myweddingApi/Startup.cs" />
-      <File FileName="myweddingApi/Controllers/MessagesController.cs" Line="21" Column="1" />
-      <File FileName="myweddingApi/Repositories/MessageRepository.cs" Line="18" Column="90" />
-      <File FileName="myweddingApi/Attributes/ApiKey.cs" Line="5" Column="55" />
+      <File FileName="myweddingApi/Controllers/MessagesController.cs" Line="30" Column="28" />
+      <File FileName="myweddingApi/Repositories/MessageRepository.cs" Line="23" Column="34" />
+      <File FileName="myweddingApi/Attributes/ApiKey.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="myweddingApi" expanded="True">
             <Node name="myweddingApi" expanded="True">
-              <Node name="Attributes" expanded="True">
-                <Node name="ApiKey.cs" selected="True" />
+              <Node name="Attributes" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Database" expanded="True">
+                <Node name="Message.cs" selected="True" />
               </Node>
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -28,7 +32,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/patrycjasuprun/Projects/mypage/myweddingApi/myweddingApi/Repositories/MessageRepository.cs" relfile="myweddingApi/Repositories/MessageRepository.cs" line="25" column="1" />
+      <Breakpoint file="/Users/patrycjasuprun/Projects/mypage/myweddingApi/myweddingApi/Repositories/MessageRepository.cs" relfile="myweddingApi/Repositories/MessageRepository.cs" line="26" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
